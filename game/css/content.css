@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:62.5%;
+	width:1440px;
+	height:949px;
+	background:url("../img/bg-page.jpg");
+	background-repeat:no-repeat;
+}
+h1{
+	text-decoration:none;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	overflow:hidden;
+	width:1440px;
+	height:196px;
+	background:url("../img/bg-header.png");
+	background-position:-50px 0;
+	background-repeat:no-repeat;
+}
+.logo h1{
+	float:left;
+	text-indent:-9999px;
+}
+.logo{
+	width:540px;
+	height:84px;
+	margin:50px auto;
+}
+.logo a{
+	display:inline-block;
+	width:540px;
+	height:84px;
+	margin-left:-50px;
+	background:url("../img/logo.png");
+	background-repeat:no-repeat;
+}
+.nav{
+	width:900px;
+	height:116px;
+	background:url("../img/bg-navigation.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:-50px;
+}
+.nav ul{
+	width:836px;
+	height:105px;
+	background:url("../img/menu.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:33px;
+	top:8px;
+}
+.nav li{
+	float:left;
+}
+.nav li a{
+	display:inline-block;
+	width:162px;
+	height:98px;
+	text-align:center;
+	line-height:98px;
+	margin-right:5px;
+	color:#a8a8a8;
+	font-size:1.7em;
+}
+.nav li:nth-of-type(1) a{
+	background:url("../img/menu.png");
+	background-position:0 -113px;
+	background-repeat:no-repeat;
+}
+
+.nav li:nth-of-type(2) a:hover{
+	background:url("../img/menu.png");
+	background-position:-167px -113px;
+	background-repeat:no-repeat;
+}
+.nav li:nth-of-type(3) a:hover{
+	background:url("../img/menu.png");
+	background-position:-334px -113px;
+	background-repeat:no-repeat;
+}
+.nav li:nth-of-type(4) a:hover{
+	background:url("../img/menu.png");
+	background-position:-501px -113px;
+	background-repeat:no-repeat;
+}
+.nav li:nth-of-type(5) a:hover{
+	background:url("../img/menu.png");
+	background-position:-668px -113px;
+	background-repeat:no-repeat;
+}
+.banner{
+	width:960px;
+	height:568px;
+	background:url("../img/featured-game.png");
+	background-repeat:no-repeat;
+	position:relative;
+	z-index:-1;
+	left:-50px;
+	top:-100px;
+}
+.banner-bottom{
+	width:960px;
+	height:390px;
+	background:url("../img/gradient.png");
+	background-repeat:repeat-x;
+	position:relative;
+	z-index:-2;
+	left:-50px;
+	top:-177px;
+}
+.banner-bottom-footer{
+	width:960px;
+	height:114px;
+	background:url("../img/bg-body-footer.png");
+	background-repeat:no-repeat;
+	position:relative;
+	left:-50px;
+	top:-177px;
+}
+.bg{
+	height:360px;
+	background:url("../img/bg-body.jpg");
+	margin-top:-435px;
+	position:relative;
+	z-index:-3;
+}
+.footer{
+	height:262px;
+	background:url("../img/bg-footer.png");
+	margin-top:-100px;
+	position:relative;
+	left:-50px;
+}
+.banner-bottom-left{
+	width:440px;
+	margin:90px 0 0 19px;
+	border-top:
+}
+.banner-bottom-left h3{
+	width:420px;
+	height:50px;
+	background:url("../img/gradient3.png");
+	background-repeat:repeat-x;
+	border:1px solid #22272a;
+	color:white;
+	font-size:1.6em;
+	line-height:50px;
+	padding-left:18px;
+	margin-bottom:1px;
+}
+.banner-bottom-left div{
+	width:390px;
+	height:162px;
+	border:1px solid #22272a;
+	background-color:#181818;
+	padding:20px 30px 30px 18px;
+}
+.banner-bottom-left div p{
+	color:#727272;
+	font-size:1.4em;
+	line-height:20px;
+}
+.banner-bottom-left div p a{
+	display:inline-block;
+	width:67px;
+	height:21px;
+	border:1px solid #22272a;
+	color:#babaaa;
+	font-size:12px;
+	text-align:center;
+	margin:5px 0 0 10px;
+	border-radius:5px;
+}
+.banner-bottom-left div p a:hover{
+	background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+

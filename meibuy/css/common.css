@@ -1,0 +1,18 @@
+.center-width{
+	width:970px;
+}
+.left-float{
+	float:left;
+}
+.right-float{
+	float:right;
+}
+input{
+	margin:0;
+	padding:0;
+	border:none;
+}
+a{
+	text-decoration:none;
+	color:normal;
+}

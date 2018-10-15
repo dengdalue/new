@@ -1,0 +1,158 @@
+*{
+	padding:0;
+	margin:0;
+	border:none;
+}
+body{
+	font-size:62.5%;
+	color:white;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.header{
+	height:125px;
+	background:url(../img/header-bg.jpg);
+	background-repeat:repeat-x;
+	position:relative;
+}
+.header #logo{
+	display:inline-block;
+	width:230px;
+	height:57px;
+	background:url(../img/woolworths-logo.png);
+	background-repeat:no-repeat;
+	margin:16px 0 0 35px;
+	float:left;
+}
+.header .login-list{
+	float:right;
+	margin:18px 16px 0 0;
+}
+.header .login-list li{
+	float:left;
+}
+.header .login-list a{
+	font-size:13px;
+}
+.header .login-list a:hover{
+	text-decoration:underline;
+}
+.search{
+	float:right;
+	margin:14px 17px 0 0;
+	position:relative;
+}
+.search s{
+	display:inline-block;
+	width:195px;
+	height:36px;
+	background:url(../img/search-green.png);
+	background-repeat:no-repeat;
+}
+.search input{
+	width:150px;
+	height:23px;
+	border-radius:10px;
+	float:left;
+	position:absolute;
+	left:28px;
+	background-color:transparent;
+}
+.nav-list{
+	clear:both;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.nav-list>li{
+	display:inline-block;
+	margin-left:15px;
+	padding:10px 12px;	
+}
+.nav-list a{
+	font-size:14px;
+	font-weight:bold;
+}
+.nav-list>li:hover{
+	cursor:pointer;
+	background-color:white;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.nav-list>li:hover a{
+	color:#00722d;
+}
+.nav-list>li{
+	position:relative;
+}
+.nav-list>li ul{
+	overflow:hidden;
+	opacity:0.3;
+	height:0;
+	transition: all 0.5s ease;
+	position:absolute;
+	left:0;
+	top:35px;
+	background-color:rgb(227,227,227);
+}
+.nav-list>li:hover ul{
+	opacity:1.0;
+}
+.nav-list>li:hover .boke{
+	height:94px;
+}
+.nav-list>li:hover .vip{
+	height:154px;
+}
+.nav-list>li:hover .child-food{
+	height:214px;
+}
+.nav-list>li:hover .food-community{
+	height:154px;
+}
+.nav-list>li:hover .food-knowledge{
+	height:124px;
+}
+.nav-list>li:hover .help{
+	height:64px;
+}
+.nav-list>li:hover .pay{
+	height:94px;
+}
+.nav-list>li:hover .we{
+	height:184px;
+}
+.nav-list>li ul li{
+	display: block;
+    width: 165px;
+    height: 30px;
+	border-top:1px dashed #006829;
+	line-height:30px;
+}
+.nav-list>li ul li a{
+	color:#006829;
+	margin-left:12px;
+}
+.nav-list>li ul li:hover{
+	background-color:rgb(98,187,35);
+}
+.nav-list>li ul li:hover a{
+	color:white;
+}
+.nav-list>li:last-child ul{
+	left:-85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
